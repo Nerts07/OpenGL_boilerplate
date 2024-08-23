@@ -1,0 +1,334 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx86/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/3.28.3-msvc11/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx86/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/3.28.3-msvc11/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-9tqucn"
+      binary: "C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-9tqucn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-9tqucn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_8417d/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_8417d.dir\\build.make CMakeFiles/cmTC_8417d.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-9tqucn'
+        Building C object CMakeFiles/cmTC_8417d.dir/CMakeCCompilerABI.c.obj
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_8417d.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-9tqucn --filter-prefix="Note: including file: " -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_8417d.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_8417d.dir/ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_8417d.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_8417d.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8417d.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\mt.exe" --manifests -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\link.exe" /nologo @CMakeFiles\\cmTC_8417d.dir\\objects1.rsp  /out:cmTC_8417d.exe /implib:cmTC_8417d.lib /pdb:C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-9tqucn\\cmTC_8417d.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_8417d.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_8417d.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_8417d.dir/manifest.res CMakeFiles\\cmTC_8417d.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_8417d.dir\\objects1.rsp /out:cmTC_8417d.exe /implib:cmTC_8417d.lib /pdb:C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-9tqucn\\cmTC_8417d.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_8417d.dir/intermediate.manifest CMakeFiles\\cmTC_8417d.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_8417d.dir/intermediate.manifest /out:CMakeFiles\\cmTC_8417d.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_8417d.dir/manifest.res CMakeFiles\\cmTC_8417d.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_8417d.dir\\objects1.rsp /out:cmTC_8417d.exe /implib:cmTC_8417d.lib /pdb:C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-9tqucn\\cmTC_8417d.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_8417d.dir/intermediate.manifest CMakeFiles\\cmTC_8417d.dir/manifest.res
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-9tqucn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-1jq71q"
+      binary: "C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-1jq71q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-1jq71q'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_7d6fa/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7d6fa.dir\\build.make CMakeFiles/cmTC_7d6fa.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-1jq71q'
+        Building CXX object CMakeFiles/cmTC_7d6fa.dir/CMakeCXXCompilerABI.cpp.obj
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_7d6fa.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-1jq71q --filter-prefix="Note: including file: " -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Ob0 /Od /RTC1 -std:c++17 -Zi /showIncludes /FoCMakeFiles\\cmTC_7d6fa.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_7d6fa.dir/ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+        CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_7d6fa.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_7d6fa.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7d6fa.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\mt.exe" --manifests -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\link.exe" /nologo @CMakeFiles\\cmTC_7d6fa.dir\\objects1.rsp  /out:cmTC_7d6fa.exe /implib:cmTC_7d6fa.lib /pdb:C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-1jq71q\\cmTC_7d6fa.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_7d6fa.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_7d6fa.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_7d6fa.dir/manifest.res CMakeFiles\\cmTC_7d6fa.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_7d6fa.dir\\objects1.rsp /out:cmTC_7d6fa.exe /implib:cmTC_7d6fa.lib /pdb:C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-1jq71q\\cmTC_7d6fa.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7d6fa.dir/intermediate.manifest CMakeFiles\\cmTC_7d6fa.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_7d6fa.dir/intermediate.manifest /out:CMakeFiles\\cmTC_7d6fa.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_7d6fa.dir/manifest.res CMakeFiles\\cmTC_7d6fa.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_7d6fa.dir\\objects1.rsp /out:cmTC_7d6fa.exe /implib:cmTC_7d6fa.lib /pdb:C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-1jq71q\\cmTC_7d6fa.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7d6fa.dir/intermediate.manifest CMakeFiles\\cmTC_7d6fa.dir/manifest.res
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-1jq71q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "thirdparty/glfw-3.4/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-quj00c"
+      binary: "C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-quj00c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/isage/source/repos/GameGL/thirdparty/glfw-3.4/CMake/modules"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-quj00c'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_e861f/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_e861f.dir\\build.make CMakeFiles/cmTC_e861f.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-quj00c'
+        Building C object CMakeFiles/cmTC_e861f.dir/src.c.obj
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_e861f.dir\\src.c.obj.d --working-dir=C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-quj00c --filter-prefix="Note: including file: " -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\cl.exe"  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /W3  /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_e861f.dir\\src.c.obj /FdCMakeFiles\\cmTC_e861f.dir/ /FS -c C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-quj00c\\src.c
+        src.c
+        C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-quj00c\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        CMakeFiles\\cmTC_e861f.dir\\build.make:77: recipe for target 'CMakeFiles/cmTC_e861f.dir/src.c.obj' failed
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_e861f.dir/src.c.obj] Error 2
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-quj00c'
+        Makefile:126: recipe for target 'cmTC_e861f/fast' failed
+        mingw32-make.exe: *** [cmTC_e861f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "thirdparty/glfw-3.4/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-u2j6bj"
+      binary: "C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-u2j6bj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/isage/source/repos/GameGL/thirdparty/glfw-3.4/CMake/modules"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-u2j6bj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_9571d/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_9571d.dir\\build.make CMakeFiles/cmTC_9571d.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-u2j6bj'
+        Building C object CMakeFiles/cmTC_9571d.dir/CheckFunctionExists.c.obj
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_9571d.dir\\CheckFunctionExists.c.obj.d --working-dir=C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-u2j6bj --filter-prefix="Note: including file: " -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_9571d.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_9571d.dir/ /FS -c C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-u2j6bj\\CheckFunctionExists.c
+        CheckFunctionExists.c
+        Linking C executable cmTC_9571d.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_9571d.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_9571d.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\mt.exe" --manifests -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\link.exe" /nologo @CMakeFiles\\cmTC_9571d.dir\\objects1.rsp  /out:cmTC_9571d.exe /implib:cmTC_9571d.lib /pdb:C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-u2j6bj\\cmTC_9571d.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_9571d.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_9571d.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_9571d.dir/manifest.res CMakeFiles\\cmTC_9571d.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_9571d.dir\\objects1.rsp /out:cmTC_9571d.exe /implib:cmTC_9571d.lib /pdb:C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-u2j6bj\\cmTC_9571d.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9571d.dir/intermediate.manifest CMakeFiles\\cmTC_9571d.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_9571d.dir\\objects1.rsp /out:cmTC_9571d.exe /implib:cmTC_9571d.lib /pdb:C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-u2j6bj\\cmTC_9571d.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_9571d.dir/intermediate.manifest CMakeFiles\\cmTC_9571d.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'
+        CMakeFiles\\cmTC_9571d.dir\\build.make:99: recipe for target 'cmTC_9571d.exe' failed
+        mingw32-make.exe[1]: *** [cmTC_9571d.exe] Error -1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-u2j6bj'
+        Makefile:126: recipe for target 'cmTC_9571d/fast' failed
+        mingw32-make.exe: *** [cmTC_9571d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "thirdparty/glfw-3.4/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-tw2h7b"
+      binary: "C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-tw2h7b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/isage/source/repos/GameGL/thirdparty/glfw-3.4/CMake/modules"
+      CMAKE_MSVC_DEBUG_INFORMATION_FORMAT: "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-tw2h7b'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_64861/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_64861.dir\\build.make CMakeFiles/cmTC_64861.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-tw2h7b'
+        Building C object CMakeFiles/cmTC_64861.dir/CheckFunctionExists.c.obj
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_64861.dir\\CheckFunctionExists.c.obj.d --working-dir=C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-tw2h7b --filter-prefix="Note: including file: " -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3 -DCHECK_FUNCTION_EXISTS=pthread_create /MDd /Ob0 /Od /RTC1 -Zi /showIncludes /FoCMakeFiles\\cmTC_64861.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_64861.dir/ /FS -c C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-tw2h7b\\CheckFunctionExists.c
+        CheckFunctionExists.c
+        Linking C executable cmTC_64861.exe
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_64861.dir\\link.txt --verbose=1
+        "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_64861.dir --rc="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\rc.exe" --mt="C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\mt.exe" --manifests -- "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\link.exe" /nologo @CMakeFiles\\cmTC_64861.dir\\objects1.rsp  /out:cmTC_64861.exe /implib:cmTC_64861.lib /pdb:C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-tw2h7b\\cmTC_64861.pdb /version:0.0 /machine:X86  /debug /INCREMENTAL /subsystem:console  pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_64861.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_64861.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\Windows Kits\\10\\bin\\10.0.22621.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_64861.dir/manifest.res CMakeFiles\\cmTC_64861.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_64861.dir\\objects1.rsp /out:cmTC_64861.exe /implib:cmTC_64861.lib /pdb:C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-tw2h7b\\cmTC_64861.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_64861.dir/intermediate.manifest CMakeFiles\\cmTC_64861.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_64861.dir\\objects1.rsp /out:cmTC_64861.exe /implib:cmTC_64861.lib /pdb:C:\\Users\\isage\\source\\repos\\GameGL\\bild\\CMakeFiles\\CMakeScratch\\TryCompile-tw2h7b\\cmTC_64861.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_64861.dir/intermediate.manifest CMakeFiles\\cmTC_64861.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'
+        CMakeFiles\\cmTC_64861.dir\\build.make:99: recipe for target 'cmTC_64861.exe' failed
+        mingw32-make.exe[1]: *** [cmTC_64861.exe] Error -1
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/isage/source/repos/GameGL/bild/CMakeFiles/CMakeScratch/TryCompile-tw2h7b'
+        Makefile:126: recipe for target 'cmTC_64861/fast' failed
+        mingw32-make.exe: *** [cmTC_64861/fast] Error 2
+        
+      exitCode: 2
+...

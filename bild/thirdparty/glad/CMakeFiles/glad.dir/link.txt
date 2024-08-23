@@ -1,0 +1,1 @@
+"C:\PROGRA~1\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\Hostx86\x86\lib.exe" /nologo /machine:X86 /out:glad.lib @CMakeFiles\glad.dir\objects1.rsp 
